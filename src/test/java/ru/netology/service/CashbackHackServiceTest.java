@@ -15,4 +15,13 @@ public class CashbackHackServiceTest {
         Assert.assertEquals(actual, excepted);
     }
 
+    @Test
+    public void purchaseSumEqualBonus() {
+
+        int actual = service.remain(1000);
+        int expected = 0;
+
+        Assert.assertEquals(actual, expected);
+    }
+
 }
